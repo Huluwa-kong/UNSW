@@ -12,7 +12,7 @@ weekPlanner.py
 1. 首先定义好所有的 binary constraints 和 hard domain constraints，此部分代码较多，例如
 
 def starts(x, y):
-    """Check if time x and y is at same day and time"""
+    # Check if time x and y is at same day and time
     return x == y
 
 # 其他constraints
